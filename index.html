@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Main page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header>
@@ -11,7 +17,7 @@
             <img src="images/logo.svg" alt="logo">
         </a>
         <nav>
-            <ul>
+            <ul class="undotted">
                 <li>
                     <a href="#">Blog</a>
                 </li>
@@ -45,7 +51,7 @@
 
         <section>
             <h2>Category Products</h2>
-            <ul>
+            <ul class="undotted">
                 <li>
                     <a href="#">APPAREL KIDS</a> 
                 </li>
@@ -65,7 +71,7 @@
         <section>
             <img src="images/woman.jpg" alt="woman">
             <h2>Delivery</h2>
-            <ul>
+            <ul class="undotted">
                 <li>
                     <h3>Delivery</h3>
                 </li>
@@ -78,12 +84,12 @@
             </ul>
             <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
             <p>What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
-            <a href="#">LEARN MORE</a>  
+            <a href="#" class="link_button">LEARN MORE</a>
         </section>
 
         <section class="partners">
             <h2>Partners</h2>
-            <ul>
+            <ul class="undotted">
                 <li>
                     <img src="images/partners/mail.png" alt="mail">
                 </li>
@@ -113,10 +119,10 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div>
-            <p>Navigation</p>
-            <ul>
+            <p class="footer_title">Navigation</p>
+            <ul class="undotted">
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Design Services</a></li>
@@ -124,11 +130,11 @@
                 <li><a href="#">Holiday Catalog</a></li>
                 <li><a href="#">By Designer</a></li>
             </ul>
-            <p>Company Rating</p>
+            <p class="footer_p">Company Rating</p>
         </div>
         <div>
-            <p>Customer Information</p>
-            <ul>
+            <p class="footer_title">Customer Information</p>
+            <ul class="undotted">
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Sale Exclusions</a></li>
                 <li><a href="#">Shipping & Returns</a></li>
@@ -136,10 +142,10 @@
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Search</a></li>
             </ul>
-            <p>Copyright © 2018 Dlk • Design Life Kids</p>
+            <p class="footer_p">Copyright © 2018 Dlk • Design Life Kids</p>
         </div>
         <div>
-            <p>Connect</p>
+            <p class="footer_title">Connect</p>
             <button class="button">JOIN</button>
             <a href="#"><img src="images/social_media/facebook.svg" alt="Facebook"></a>
             <a href="#"><img src="images/social_media/twitter.svg" alt="Twitter"></a>
@@ -172,7 +178,7 @@
             </div>
             <input type="checkbox" name="" id="input-consent">
             <label for="input-consent">By clicking on the button, you consent to the processing of your personal data</label>
-            <button type="submit">Submit</button>
+            <button type="submit" class="button">Submit</button>
     </form>
     </section>
 </body>

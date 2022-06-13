@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+/* font-family: 'Crimson Text', serif;
+font-family: 'Montserrat', sans-serif; ---- чтобы не забыть */
+a {
+    text-decoration: none;
+}
+.undotted {
+    list-style-type: none;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.button {
+    font-weight: 700;
+    color: #fff;
+    background: #000;
+    padding: 9px 22px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.link_button {
+    font-weight: 700;
+    color: #fff;
+    background: #000;
+    padding: 9px 22px;
+}
+
+.footer {
+    background-color: #434343;
+}
+.footer a {
+    color: #fff;
+}
+.footer_title {
+    color: #AAAAAA;
+}
+.footer_p {
+    color: #fff;
+}
