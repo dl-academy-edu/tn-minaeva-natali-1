@@ -1,8 +1,10 @@
+* { box-sizing:border-box;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 21.79px;
     color: #1E0606;
 }
 /* font-family: 'Crimson Text', serif;
@@ -10,15 +12,40 @@ font-family: 'Montserrat', sans-serif; ---- чтобы не забыть */
 a {
     text-decoration: none;
 }
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 100%;
+}
+
 .undotted {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 44px;
 }
+    /* Font family: Montserrat
+Font style: Bold
+Font size: 40px
+Line height: 44px
+Line height: 110%
+Align: Left
+Vertical align: Top
+Fill Color Style: Black
+Fill: Solid
+#1E0606 */
+
 
 .button {
     font-weight: 700;
@@ -27,17 +54,56 @@ h1 {
     padding: 9px 22px;
     cursor: pointer;
     text-transform: uppercase;
+    display: block;
+    border: none;
+    width: 161px;
+    height: 40 px;
 }
+
 .link_button {
     font-weight: 700;
     color: #fff;
     background: #000;
     padding: 9px 22px;
+    display: inline-block;
+    text-transform: uppercase;
+    height: 40 px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 66px;
+    margin-bottom: 56px;
+}
+
+.header-menu {
+    margin: 0 auto 0 60.5px;
+}
+
+.header-list {
+    display: flex;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header-list a {
+    color: #1E0606;
+    margin-right: 30px;
 }
 
 .footer {
     background-color: #434343;
+    width: 1400px;
+    height: 555px;
 }
+
+.footer-column {
+    display: inline-block;
+    vertical-align: top;
+}
+
 .footer a {
     color: #fff;
 }

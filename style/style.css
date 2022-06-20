@@ -1,3 +1,194 @@
 .grey_link {
     color: grey
 }
+
+.search {
+    margin-right: 23.48px;
+}
+.contact-link {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+.banner-wrapper {
+    background-color: #EEE4DB;
+    width: 1180px;
+    height: 372px;
+}
+.banner-title {
+    margin:0;
+}
+
+.banner-noimg {
+    padding: 89px 0 0 133px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 38%;
+}
+
+.banner-img {
+    display: inline-block;
+    margin-top: -44px;
+}
+.underbanner_line {
+    background: #C29974;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 16.34px;
+    padding: 11px;
+}
+.category-title {
+    font-size: 38px;
+    line-height: 46.32px;
+    text-transform: uppercase;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    vertical-align: top;
+    margin: 90px auto 30px 0;
+}
+.category_1 {
+    background-image: url(../images/products/product1.jpg);
+}
+
+.category_2 {
+    background-image: url(../images/products/product2.jpg)
+}
+
+.category_3 {
+    background-image: url(../images/products/product3.jpg)
+}
+
+.category_4 {
+    background-image: url(../images/products/product4.jpg)
+}
+
+.category_products li {
+    width: 280px;
+    height: 270px;
+    text-align: center;
+    padding: 127px 0;
+}
+
+.category_products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category_products a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31.69px;
+    font-family: 'Montserrat';
+}
+
+.category-text {
+    margin: 30px auto 90px 105px;
+    max-width: 46%;
+}
+
+.image-left {
+    display: inline-block;
+}
+
+.next-to-image {
+    display: inline-block;
+    max-width: 40%;
+    vertical-align: top;
+    margin-left: 120px;
+}
+
+.next-to-image-title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46.32px;
+    color: #1E0606;
+    text-transform: uppercase;
+    margin: 30px auto 0; 
+}
+.next-to-image-title2 {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 33.79px;
+    margin: 17px auto 0;    
+}
+.next-to-image-title3 {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 33.79px;
+    margin: 22px auto 0;
+    font-weight: 400;
+}
+
+.hidden-title {
+    display: none;
+}
+.partners {
+    display: flex;
+    margin-top: 45px;
+    /* Это неправильно, мерила на глаз. Откуда взялось пространство над логотипами и как сделать джастифай контент: спейс битвин или эраунд? логотипы слиплись! */
+}
+
+.about-contacts {
+    margin-top: 90px;
+    justify-content: space-between
+}
+
+.about-wrapper {
+    display: inline-block;
+    background-color: #E1F0F7;
+    height: 228px;
+    width: 543px;
+    padding-left: 30px;
+    margin-right: 57px;
+}
+
+.contacts-wrapper {
+    display: inline-block;
+    background-color: #E1F0F7;
+    height: 228px;
+    width: 543px;
+    vertical-align: top;
+    padding-left: 30px;
+}
+
+.about-contacts-title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46.32px;
+    color: #1E0606;
+    text-transform: uppercase;
+    margin: -25px auto 0 0;
+}
+
+.about-contacts-undertitle {
+    display: inline-block;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 33.79px;
+    margin: 10px auto 0;
+    font-weight: 400;
+}
+
+.about-text {
+    margin: 10px auto 20px 0;
+    width: 98%;
+}
+.contacts-text {
+    margin: 20px auto 30px 0;
+    width: 98%;
+}
+
+.footer {
+    margin-top: 155px;
+}
