@@ -6,11 +6,12 @@
     <title>Main page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
     <header class="header container">
         <a href="/">
@@ -41,12 +42,10 @@
                     <p>Designed in Slovenia</p>
                     <button class="button">EXPLORE NOW</button>
                 </div>
-                <div class="banner-img">
-                    <img src="images/monster.png" class="banner-img" alt="monster">
-                </div>
+                <img src="images/monster.png" class="banner-img" alt="monster">
             </div>
             <div class="underbanner_line">
-                <span> (continental) USA shipping on all orders of $100 USD or more!</span>
+                (continental) USA shipping on all orders of $100 USD or more!</span>
             </div>
             
         </section>
@@ -74,15 +73,15 @@
             <img src="images/woman.jpg" class="image-left" alt="woman">
             <div class="next-to-image">
                 <h2 class="next-to-image-title">Delivery</h2>
-                <ul class="undotted">
+                <ul class="undotted next-to-image-li">
                     <li>
-                        <h3 class="next-to-image-title2">Delivery</h3>
+                        Delivery
                     </li>
                     <li>
-                        <h3 class="next-to-image-title3">Guarantee</h3>
+                        Guarantee
                     </li>
                     <li>
-                        <h3 class="next-to-image-title3">Credit</h3>
+                        Credit
                     </li>
                 </ul>
                 <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
@@ -93,7 +92,7 @@
 
         <section class="partners">
             <h2 class="hidden-title">Partners</h2>
-            <ul class="undotted partners">
+            <ul class="undotted partners-list">
                 <li>
                     <img src="images/partners/mail.png" alt="mail">
                 </li>
@@ -109,89 +108,95 @@
             </ul>
         </section>
 
-        <section class="about-contacts container">
+        <section class="info container">
             <div class="about-wrapper">
-                <h2 class="about-contacts-title">Design Life Kids</h2>
-                <p class="about-contacts-undertitle">About Us</p>
+                <h2 class="info-title">Design Life Kids</h2>
+                <p class="info-undertitle">About Us</p>
                 <p class="about-text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.  </p>
                 <button class="button">BUY NOW</button>
             </div>
             <div class="contacts-wrapper">
-                <h2 class="about-contacts-title">Contacts</h2>
+                <h2 class="info-title">Contacts</h2>
                 <p class="contacts-text">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                 <img src="images/map.jpg" alt="map">
             </div>
+
+                
         </section>
     </main>
-    <footer class="footer container">
-        <div class="footer-column">
-            <p class="footer_title">Navigation</p>
-            <ul class="undotted">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Design Services</a></li>
-                <li><a href="#">Featured On</a></li>
-                <li><a href="#">Holiday Catalog</a></li>
-                <li><a href="#">By Designer</a></li>
-            </ul>
+    
+    <footer class="footer">
+        <div class="footer-upper-part container">
+            <div class="footer-column">
+                <p class="footer_title">Navigation</p>
+                <ul class="undotted footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Design Services</a></li>
+                    <li><a href="#">Featured On</a></li>
+                    <li><a href="#">2018 Holiday Catalog</a></li>
+                    <li><a href="#">Shop By Designer</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <p class="footer_title">Customer Information</p>
+                <ul class="undotted footer-links">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Sale Exclusions</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <p class="footer_title">Connect</p>
+                <form action="#">
+                    <input type="email" placeholder="Email">
+                    <button class="button">JOIN</button>
+                </form>
+                    <div class="social-line">
+                        <a href="#"><img src="images/social_media/facebook.svg" alt="Facebook"></a>
+                        <a href="#"><img src="images/social_media/twitter.svg" alt="Twitter"></a>
+                        <a href="#"><img src="images/social_media/pinterest.svg" alt="Pinterest"></a>
+                        <a href="#"><img src="images/social_media/instagram.svg" alt="Instagram"></a>
+                    </div>
+            </div>
         </div>
-        <div class="footer-column">
-            <p class="footer_title">Customer Information</p>
-            <ul class="undotted">
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Sale Exclusions</a></li>
-                <li><a href="#">Shipping & Returns</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Search</a></li>
-            </ul>
-        </div>
-        <div class="footer-column">
-            <p class="footer_title">Connect</p>
-            <form action="#">
-                <input type="email" placeholder="Email">
-                <button class="button">JOIN</button>
-            </form>
-            <a href="#"><img src="images/social_media/facebook.svg" alt="Facebook"></a>
-            <a href="#"><img src="images/social_media/twitter.svg" alt="Twitter"></a>
-            <a href="#"><img src="images/social_media/pinterest.svg" alt="Pinterest"></a>
-            <a href="#"><img src="images/social_media/instagram.svg" alt="Instagram"></a>
-        </div>
-        <div class="footer-bottom">
-            <p class="footer_p">Company Rating</p>
-            <p class="footer_p">Copyright © 2018 Dlk • Design Life Kids</p>
-            <a href="https://directline.digital/">Web Design — Direct Line Development</a>
+        <div class="footer-bottom container">
+            <p class="footer-bottom-line">Company Rating</p>
+            <p class="footer-bottom-line">Copyright © 2018 Dlk • Design Life Kids</p>
+            <a href="https://directline.digital/" class="footer-bottom-line">Web Design — Direct Line Development</a>
         </div>
     </footer>
 
 
 
-    
-    <section class="container">
-        <h3>Modal Block</h3>
-        <form action="#">
-            <div>
+    <section class="popup">
+        <h3 class="hidden-title">Modal Block</h3>
+        <form action="#" class="contact-form popup-form">
+            <div class="label-wrapper">
                 <label for="input-name">Name</label>
                 <input type="text" id="input-name" placeholder="Ivan Ivanov">
             </div>
-            <div>
-                <div>
+            <div class="field-2-columns">
+                <div class="label-wrapper">
                     <label for="input-phone">Phone</label>
                     <input type="tel" id="input-phone">
                 </div>
-                <div>
+                <div class="label-wrapper">
                     <label for="input-email">Email</label>
                     <input type="email" id="input-email">
                 </div>
             </div>
-            <div>
+            <div class="label-wrapper">
                 <label for="textarea">Message</label>
                 <textarea name="" id="textarea" cols="50" rows="6"></textarea>
             </div>
-            <input type="checkbox" name="" id="input-consent">
-            <label for="input-consent">By clicking on the button, you consent to the processing of your personal data</label>
+            <input type="checkbox" class="checkbox-input" name="" id="input-consent" checked>
+            <label for="input-consent" class="checkbox-label">By clicking on the button, you consent to the processing of your personal data</label>
             <button type="submit" class="button">Submit</button>
-    </form>
+        </form>
     </section>
 </body>
 </html>
