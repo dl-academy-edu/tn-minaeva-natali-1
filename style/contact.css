@@ -1,0 +1,43 @@
+
+
+.contact-title {
+    width: 282px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 48.76px;
+    text-transform: uppercase;
+    color: #1E0606;
+    margin-bottom: 15px;
+}
+
+.contact-form {
+    width: 680px;
+    background: #E5EAF8;
+    padding: 42px 40px;
+}
+
+.form-and-text {
+    margin-top: 50px;
+}
+
+.form-and-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-right {
+    width: 33%;
+}
+
+.text-right p:first-child {
+    margin-top: 0
+}
+
+/* эта надпись выглядит почему-то по-другому в фигме */
+.text-right p:nth-child(3) { 
+    font-family: 'Montserrat';
+    font-size: 26px;
+    line-height: 34px;
+    color: #C29974;
+    text-transform: uppercase;
+}

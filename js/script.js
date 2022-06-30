@@ -1,0 +1,14 @@
+var popup = document.querySelector('.popup');
+var popupBtn = document.querySelector('.banner-js');
+var popupClose = document.querySelector('.popup-close');
+var input = popup.querySelector('#input-name');
+
+popupBtn.addEventListener('click',function() {
+    popup.classList.add('popup-open');
+    input.focus();
+})
+
+popupClose.addEventListener('click',function() {
+    popup.classList.remove('popup-open');
+    popupBtn.focus();
+})

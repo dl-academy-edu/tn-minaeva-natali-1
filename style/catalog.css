@@ -1,0 +1,25 @@
+.category_products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.category_products li {
+    margin-right: 20px;
+    margin-bottom: 23px;
+}
+.category_products li:nth-child(4) {
+    margin-left: 200px;
+}
+
+.description-title {
+    font-size: 38px;
+    line-height: 46.32px;
+    text-transform: uppercase;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    vertical-align: top;
+    margin: 90px auto 30px 0;
+}
