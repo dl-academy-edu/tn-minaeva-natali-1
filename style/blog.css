@@ -1,0 +1,11 @@
+
+
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-list li {
+    max-width: 29%;
+}
