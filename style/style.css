@@ -11,9 +11,47 @@
     background-color: #EEE4DB;
     width: 1180px;
     height: 372px;
+    position: relative;
 }
+
+.button-slider1, .button-slider2, .button-slider3, .button-slider4 {
+    position: absolute;
+    top: 102px;
+    left: 33px;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background-color: #D6CAC2;
+    width: 31px;
+    height: 3px;
+}
+.button-slider2 {
+    top: 116px
+}
+.button-slider3 {
+    top: 130px;
+}
+.button-slider4 {
+    top: 144px;
+}
+
+.banner-wrapper button:hover {
+    background-color: #1E060699
+}
+
+.banner-title::before {
+    content: '';
+    background-image: url(../images/01.png);
+    top: 30px;
+    left: 33px;
+    position: absolute;
+    width: 61px;
+    height: 74px;
+    background-repeat: no-repeat;
+}
+
 .banner-title {
-    margin:0;
+    margin: 2px 0 0 3px;
 }
 
 .banner-noimg {
@@ -22,6 +60,11 @@
     vertical-align: top;
     max-width: 38%;
 }
+
+.banner-noimg button {
+    margin-top: 30px;
+}
+
 
 .banner-img {
     display: inline-block;
@@ -49,8 +92,19 @@
 }
 
 .category-text {
-    margin: 30px auto 90px 105px;
+    margin: -46px 0px 90px 102px;;
     max-width: 46%;
+}
+
+.category-products button {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    margin: 36px 4px 0 0;
+}
+
+.category_products a:hover {
+    text-decoration: underline;
 }
 
 .image-left {
@@ -61,7 +115,7 @@
     display: inline-block;
     max-width: 40%;
     vertical-align: top;
-    margin-left: 120px;
+    margin-left: 117px;
 }
 
 .next-to-image-title {
@@ -71,8 +125,12 @@
     line-height: 46px;
     color: #1E0606;
     text-transform: uppercase;
-    margin-bottom: 17px;
+    margin-bottom: 7px;
     margin-top: 30px;
+}
+
+.next-to-image a {
+    margin-top: 6px;
 }
 
 .next-to-image-li {
@@ -110,11 +168,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 45px;
+    margin-top: 84px;
 }
 
 .info {
-    margin-top: 90px;
+    margin-top: 115px;
     display: flex;
 }
 
@@ -158,11 +216,11 @@
 
 .about-text {
     margin: 10px auto 20px 0;
-    width: 98%;
+    width: 95%;
 }
 .contacts-text {
     margin: 20px auto 30px 0;
-    width: 98%;
+    width: 95%;
 }
 
 .footer {

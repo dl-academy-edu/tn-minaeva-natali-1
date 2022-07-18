@@ -33,7 +33,6 @@
     margin-top: 0
 }
 
-/* эта надпись выглядит почему-то по-другому в фигме */
 .text-right p:nth-child(3) { 
     font-family: 'Montserrat';
     font-size: 26px;

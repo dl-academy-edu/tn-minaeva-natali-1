@@ -13,6 +13,10 @@
     margin-left: 200px;
 }
 
+.category_products a:hover {
+    text-decoration: underline;
+}
+
 .description-title {
     font-size: 38px;
     line-height: 46.32px;
