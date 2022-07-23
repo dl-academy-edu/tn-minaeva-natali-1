@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/common.css">
-    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/common.min.css">
+    <link rel="stylesheet" href="style/contact.min.css">
 </head>
 <body>
     <header class="header container">
         <a href="/">
-            <img src="images/logo.svg" alt="logo">
+            <img src="images/logo.svg" alt="logo" width="100" height="52">
         </a>
         <nav class="header-menu">
             <ul class="undotted header-list">
@@ -36,7 +36,7 @@
     <main class="container">
         <section>
             <h1 class="contact-title">Contact us</h1>
-            <a class="breadcrumbs svg" href="/">Home</a></span> <span class="breadcrumbs grey">Contact Us</span>
+            <a class="breadcrumbs svg" href="/">Home</a> <span class="breadcrumbs grey">Contact Us</span>
             <div class="form-and-text">
                 <form action="#" class="contact-form">
                     <div class="label-wrapper">
@@ -55,26 +55,27 @@
                     </div>
                     <div class="label-wrapper">
                         <label for="textarea">Message</label>
-                        <textarea name="" id="textarea" cols="50" rows="6"></textarea>
+                        <textarea name="Your message" id="textarea" cols="50" rows="6"></textarea>
                     </div>
-                    <input type="checkbox" class="checkbox-input" name="" id="input-consent" checked>
+                    <input type="checkbox" class="checkbox-input" name="Your consent" id="input-consent" checked>
                     <label for="input-consent" class="checkbox-label">By clicking on the button, you consent to the processing of your personal data</label>
                     <button type="submit" class="button">Submit</button>
                 </form>
+                
+                <div class="text-right">
+                    <p>Our support team are on-hand to assist with any issues you are experiencing.</p>
+                    <p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+                    <p>An expert is waiting to help you!</p>
+                </div>
             </div>
-            <div class="text-right">
-                <p>Our support team are on-hand to assist with any issues you are experiencing.</p>
-                <p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
-                <p>An expert is waiting to help you!</p>
-            </div>
-        </div>
+
         </section>
     </main>
 
     <footer class="footer">
         <div class="footer-upper-part container">
             <div class="footer-column">
-                <p class="footer_title">Navigation</p>
+                <p class="footer-title">Navigation</p>
                 <ul class="undotted footer-links">
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Blog</a></li>
@@ -85,7 +86,7 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <p class="footer_title">Customer Information</p>
+                <p class="footer-title">Customer Information</p>
                 <ul class="undotted footer-links">
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Sale Exclusions</a></li>
@@ -96,16 +97,16 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <p class="footer_title">Connect</p>
-                <form action="#">
+                <p class="footer-title">Connect</p>
+                <form class="footer-form" action="#">
                     <input type="email" placeholder="Email">
                     <button class="button">JOIN</button>
                 </form>
                     <div class="social-line">
-                        <a href="#"><img src="images/social_media/facebook.svg" alt="Facebook"></a>
-                        <a href="#"><img src="images/social_media/twitter.svg" alt="Twitter"></a>
-                        <a href="#"><img src="images/social_media/pinterest.svg" alt="Pinterest"></a>
-                        <a href="#"><img src="images/social_media/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="images/social-media/facebook.svg" alt="Facebook" width="30" height="30"></a>
+                        <a href="#"><img src="images/social-media/twitter.svg" alt="Twitter" width="30" height="30"></a>
+                        <a href="#"><img src="images/social-media/pinterest.svg" alt="Pinterest" width="30" height="30"></a>
+                        <a href="#"><img src="images/social-media/instagram.svg" alt="Instagram" width="30" height="30"></a>
                     </div>
             </div>
         </div>
@@ -115,5 +116,6 @@
             <a href="https://directline.digital/" class="footer-bottom-line">Web Design — Direct Line Development</a>
         </div>
     </footer>
+
 </body>
 </html>

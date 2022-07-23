@@ -1,13 +1,13 @@
 
 
 .contact-title {
-    width: 282px;
     font-family: 'Montserrat';
     font-weight: 700;
     line-height: 48.76px;
     text-transform: uppercase;
     color: #1E0606;
     margin-bottom: 15px;
+    letter-spacing: 1.4px;
 }
 
 .contact-form {
@@ -22,11 +22,11 @@
 
 .form-and-text {
     display: flex;
-    justify-content: space-between;
 }
 
 .text-right {
-    width: 33%;
+    width: 32%;
+    margin-left: 123px;
 }
 
 .text-right p:first-child {
@@ -39,4 +39,21 @@
     line-height: 34px;
     color: #C29974;
     text-transform: uppercase;
+}
+
+.footer {
+    margin-top: 60px;
+}
+
+
+form button:hover {
+    background-color: #C29974
+}
+    
+form button:active {
+    background-color: #CFAF91
+}
+    
+form button:disabled {
+    background-color: #C7C1C1;
 }

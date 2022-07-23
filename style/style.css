@@ -1,4 +1,4 @@
-.grey_link {
+.grey-link {
     color: grey
 }
 
@@ -36,7 +36,15 @@
 }
 
 .banner-wrapper button:hover {
-    background-color: #1E060699
+    background-color: #C29974
+}
+
+.banner-wrapper button:active {
+    background-color: #CFAF91
+}
+
+.banner-wrapper button:disabled {
+    background-color: #C7C1C1;
 }
 
 .banner-title::before {
@@ -70,7 +78,7 @@
     display: inline-block;
     margin-top: -89px;
 }
-.underbanner_line {
+.underbanner-line {
     background: #C29974;
     text-align: center;
     font-size: 12px;
@@ -103,12 +111,13 @@
     margin: 36px 4px 0 0;
 }
 
-.category_products a:hover {
+.category-list a:hover {
     text-decoration: underline;
 }
 
 .image-left {
     display: inline-block;
+    background-color: #C7DFEB
 }
 
 .next-to-image {
@@ -260,6 +269,14 @@
     cursor: pointer;
 }
 
+.popup-close:hover {
+    opacity: .7;
+}
+
+.popup-close:active {
+    opacity: .4;
+}
+
 .popup-form {
     width: 700px;
     background: #E5EAF8;
@@ -269,3 +286,17 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+.submit:hover {
+    background-color: #C29974
+}
+    
+.submit:active {
+    background-color: #CFAF91
+}
+    
+.submit:disabled {
+    background-color: #C7C1C1;
+}
+
+
