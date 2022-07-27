@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/common.css">
-    <link rel="stylesheet" href="style/catalog.css">
+    <link rel="stylesheet" href="style/common.min.css">
+    <link rel="stylesheet" href="style/catalog.min.css">
 </head>
 <body>
     <header class="header container">
         <a href="/">
-            <img src="images/logo.svg" alt="logo">
+            <img src="images/logo.svg" alt="logo" width="100" height="52">
         </a>
         <nav class="header-menu">
             <ul class="undotted header-list">
@@ -36,37 +36,40 @@
     <main>
         <section class="container">
             <h1>CATEGORY PRODUCTS</h1>
-            <a class="breadcrumbs svg" href="/">Home</a></span> <span class="breadcrumbs grey">Catalog</span>
-            <ul class="category_products undotted">
-                <li class="category_1">
+            <a class="breadcrumbs svg" href="/">Home</a> <span class="breadcrumbs grey">Catalog</span>
+            <ul class="category-list undotted">
+                <li class="category-1">
                     <a href="#">APPAREL<br>KIDS</a> 
                 </li>
-                <li class="category_2">
+                <li class="category-2">
                     <a href="#">HOLIDAY<br>SHOP</a>
                 </li>
-                <li class="category_3">
+                <li class="category-3">
                     <a href="toys.html">TOYS</a>
                 </li>         
-                <li class="category_4">
+                <li class="category-4">
                     <a href="#">ACCESSORIES</a> 
                 </li>
-                <li class="category_5">
+                <li class="category-5">
                     <a href="#">SALE</a>
                 </li>
-                <li class="category_6">
+                <li class="category-6">
                     <a href="#">APPAREL<br>ADULTS</a>
                 </li>
             </ul>
-            <h2 class="description-title">PRODUCT DESCRIPTION</h2>
-            <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
-            <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
-            <p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
+            <div class="product-description">
+                <h2 class="description-title">PRODUCT DESCRIPTION</h2>
+                <p>Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
+                <p>A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
+                <p>The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
+            </div>
         </section>
     </main>
+
     <footer class="footer">
         <div class="footer-upper-part container">
             <div class="footer-column">
-                <p class="footer_title">Navigation</p>
+                <p class="footer-title">Navigation</p>
                 <ul class="undotted footer-links">
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Blog</a></li>
@@ -77,7 +80,7 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <p class="footer_title">Customer Information</p>
+                <p class="footer-title">Customer Information</p>
                 <ul class="undotted footer-links">
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Sale Exclusions</a></li>
@@ -88,16 +91,16 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <p class="footer_title">Connect</p>
-                <form action="#">
+                <p class="footer-title">Connect</p>
+                <form class="footer-form" action="#">
                     <input type="email" placeholder="Email">
                     <button class="button">JOIN</button>
                 </form>
                     <div class="social-line">
-                        <a href="#"><img src="images/social_media/facebook.svg" alt="Facebook"></a>
-                        <a href="#"><img src="images/social_media/twitter.svg" alt="Twitter"></a>
-                        <a href="#"><img src="images/social_media/pinterest.svg" alt="Pinterest"></a>
-                        <a href="#"><img src="images/social_media/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="images/social-media/facebook.svg" alt="Facebook" width="30" height="30"></a>
+                        <a href="#"><img src="images/social-media/twitter.svg" alt="Twitter" width="30" height="30"></a>
+                        <a href="#"><img src="images/social-media/pinterest.svg" alt="Pinterest" width="30" height="30"></a>
+                        <a href="#"><img src="images/social-media/instagram.svg" alt="Instagram" width="30" height="30"></a>
                     </div>
             </div>
         </div>
@@ -107,5 +110,6 @@
             <a href="https://directline.digital/" class="footer-bottom-line">Web Design — Direct Line Development</a>
         </div>
     </footer>
+
 </body>
 </html>

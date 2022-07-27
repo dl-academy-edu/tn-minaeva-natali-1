@@ -8,14 +8,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/common.css">
-    <link rel="stylesheet" href="style/toys.css">
+    <link rel="stylesheet" href="style/common.min.css">
+    <link rel="stylesheet" href="style/toys.min.css">
 </head>
 
 <body>
     <header class="header container">
         <a href="/">
-            <img src="images/logo.svg" alt="logo">
+            <img src="images/logo.svg" alt="logo" width="100" height="52">
         </a>
         <nav class="header-menu">
             <ul class="undotted header-list">
@@ -38,63 +38,63 @@
         <section>
             <h1 class="container toys-title">Toy for kids</h1>
             <div class="container breadcrumbs-wrapper">
-                <a class="breadcrumbs for-breadcrumbs1" href="/">Home</a></span> <a href="catalog.html"><span class="breadcrumbs for-breadcrumbs2">Catalog</span></a><span class="breadcrumbs">Toys</span>
+                <a class="breadcrumbs for-breadcrumbs1" href="/">Home</a> <a href="catalog.html"><span class="breadcrumbs for-breadcrumbs2">Catalog</span></a><span class="breadcrumbs">Toys</span>
             </div>
             <div class="custom-wrapper">
                 <div class="inputs-display container">
-                    <div class="price-range">
+                    <div class="price-range" tabindex="0">
                         <span class="range-item">Cost</span>
                         <div>
                             <span class="zero">0</span><span class="five-hundred">500</span>
                         </div>
                     </div>
-                    <div class="color-choice">
+                    <div class="color-choice" tabindex="0">
                         <span>Color</span>
                         <ul class="undotted color-list">
                             <li>
                                 <input type="checkbox" id="black-option" class="checkbox-input" checked>
-                                <label for="black-option" class="checkbox-label">Black</label>
+                                <label for="black-option" class="checkbox-label" tabindex="0">Black</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="blue-option" class="checkbox-input">
-                                <label for="blue-option" class="checkbox-label">Blue</label>
+                                <label for="blue-option" class="checkbox-label" tabindex="0">Blue</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="green-option" class="checkbox-input">
-                                <label for="green-option" class="checkbox-label">Green</label>
+                                <label for="green-option" class="checkbox-label" tabindex="0">Green</label>
                             </li>                        <li>
                                 <input type="checkbox" id="white-option" class="checkbox-input">
-                                <label for="white-option" class="checkbox-label">White</label>
+                                <label for="white-option" class="checkbox-label" tabindex="0">White</label>
                             </li>
                         </ul>
                     </div>
                     <div class="shipping-choice">
-                        <span>Delivery</span>
+                        <span tabindex="0">Delivery</span>
                         <ul class="undotted delivery-list">
                             <li>
                                 <input type="radio" id="free" name="shipping-type" class="radio-input">
-                                <label for="free" class="radio-label">Free shipping</label>
+                                <label for="free" class="radio-label" tabindex="0">Free shipping</label>
                             </li>
                             <li>
                                 <input type="radio" id="fast" name="shipping-type" class="radio-input2" checked>
-                                <label for="fast" class="radio-label2">Fast shipping</label>
+                                <label for="fast" class="radio-label2" tabindex="0">Fast shipping</label>
                             </li>
                         </ul>
                     </div>
-                    <div class="amount-choice">
+                    <div class="amount-choice" tabindex="0">
                         <span>Amount</span>
                         <ul class="undotted amount-range">
                             <li>
                                 <input type="radio" id="toys-amount1" name="amount" class="radio-input-amount1" checked>
-                                <label for="toys-amount1" class="radio-label-amount-1">0-5</label>
+                                <label for="toys-amount1" class="radio-label-amount-1" tabindex="0">0-5</label>
                             </li>
                             <li>
                                 <input type="radio" id="toys-amount2" name="amount" class="radio-input-amount2">
-                                <label for="toys-amount2" class="radio-label-amount-2">10-20</label>
+                                <label for="toys-amount2" class="radio-label-amount-2" tabindex="0">10-20</label>
                             </li>
                             <li>
                                 <input type="radio" id="toys-amount3" name="amount" class="radio-input-amount3">
-                                <label for="toys-amount3" class="radio-label-amount-3">20-50</label>
+                                <label for="toys-amount3" class="radio-label-amount-3" tabindex="0">20-50</label>
                             </li>
                         </ul>
                     </div>
@@ -108,7 +108,7 @@
             <ul class="toys-list undotted">
                 <li class="product">
                     <a href="">
-                        <img src="images/toys/shark.jpg" alt="">
+                        <img src="images/toys/shark.jpg" class="toys-list-pic1" alt="" width="380" height="385">
                         <div class="stop-blinking"></div>
                         <span class="description">SHARKY BEAN BAG CHAIR COVER</span><br>
                         <span class="price">$60.00 USD</span>
@@ -116,7 +116,7 @@
                 </li>
                 <li class="product">
                     <a href="">
-                        <img src="images/toys/brass.jpg" alt="">
+                        <img src="images/toys/brass.jpg" class="toys-list-pic2" alt="" width="380" height="385">
                         <div class="stop-blinking"></div>
                         <span class="description">BRASS DECO FRAMES</span><br>
                         <span class="price">$66.00 USD</span>
@@ -124,7 +124,7 @@
                 </li>
                 <li class="product">
                     <a href="">
-                        <img src="images/toys/apron.jpg" alt="">
+                        <img src="images/toys/apron.jpg" class="toys-list-pic3" alt="" width="380" height="385">
                         <div class="stop-blinking"></div>
                         <span class="description">CIBO FULL APRON</span><br>
                         <span class="price">$60.00 USD</span>
@@ -133,7 +133,7 @@
 
                 <li class="product">
                     <a href="">
-                        <img src="images/toys/gum-machine.jpg" alt="">
+                        <img src="images/toys/gum-machine.jpg" class="toys-list-pic4" alt="" width="380" height="385">
                         <div class="stop-blinking"></div>
                         <span class="description">GATCHA GATCHA GUMBALL MACHINE</span><br>
                         <span class="price">$56.00 USD</span>
@@ -141,7 +141,7 @@
                 </li>
                 <li class="product">
                     <a href="">
-                        <img src="images/toys/candle.jpg" alt="">
+                        <img src="images/toys/candle.jpg" class="toys-list-pic5" alt="" width="380" height="385">
                         <div class="stop-blinking"></div>
                         <span class="description">CHRISTMAS ADVENT SCENTED CANDLE</span><br>
                         <span class="price">$29.00 USD</span>
@@ -149,7 +149,7 @@
                 </li>
                 <li class="product">
                     <a href="">
-                        <img src="images/toys/tea-light.jpg" alt="">
+                        <img src="images/toys/tea-light.jpg" class="toys-list-pic6" alt="" width="380" height="385">
                         <div class="stop-blinking"></div>
                         <span class="description">TANGLE SPINNING TEA LIGHT</span><br>
                         <span class="price">$56.00 USD</span>
@@ -159,36 +159,31 @@
         </section>
 
         <div class="container">
-            <ul class="wide-page-list undotted">
-                <li>
-                    <a href="#"><img src="images/prev-page-arrow.svg" alt=""></a>
-                </li>
-                <div class="page-numbers">
-                    <ul class="page-list undotted">
-                        <li>
-                            <a href="#">1</a>
-                        </li>
-                        <li>
-                            <a href="#">2</a>
-                        </li>
-                        <li>
-                            <a href="#">3</a>
-                        </li>
-                        <li>
-                            <a href="#">4</a>
-                        </li>
-                    </ul>
-                </div>
-                <li>
-                    <a href="#"><img src="images/next-page-arrow.svg" alt=""></a>
-                </li>
-            </ul>
+            <div class="wide-page-list undotted">
+                <a href="#" class="prev-page" aria-label="previous-page"></a>
+                <ul class="page-list undotted">
+                    <li>
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                </ul>
+                <a href="#" class="next-page" aria-label="next-page"></a>
+            </div>
         </div>
     </main>
+
     <footer class="footer">
         <div class="footer-upper-part container">
             <div class="footer-column">
-                <p class="footer_title">Navigation</p>
+                <p class="footer-title">Navigation</p>
                 <ul class="undotted footer-links">
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Blog</a></li>
@@ -199,7 +194,7 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <p class="footer_title">Customer Information</p>
+                <p class="footer-title">Customer Information</p>
                 <ul class="undotted footer-links">
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Sale Exclusions</a></li>
@@ -210,16 +205,16 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <p class="footer_title">Connect</p>
+                <p class="footer-title">Connect</p>
                 <form class="footer-form" action="#">
                     <input type="email" placeholder="Email">
                     <button class="button">JOIN</button>
                 </form>
                     <div class="social-line">
-                        <a href="#"><img src="images/social_media/facebook.svg" alt="Facebook"></a>
-                        <a href="#"><img src="images/social_media/twitter.svg" alt="Twitter"></a>
-                        <a href="#"><img src="images/social_media/pinterest.svg" alt="Pinterest"></a>
-                        <a href="#"><img src="images/social_media/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="images/social-media/facebook.svg" alt="Facebook" width="30" height="30"></a>
+                        <a href="#"><img src="images/social-media/twitter.svg" alt="Twitter" width="30" height="30"></a>
+                        <a href="#"><img src="images/social-media/pinterest.svg" alt="Pinterest" width="30" height="30"></a>
+                        <a href="#"><img src="images/social-media/instagram.svg" alt="Instagram" width="30" height="30"></a>
                     </div>
             </div>
         </div>

@@ -1,11 +1,76 @@
+h1 {
+    margin-bottom: 18px;
+}
 
+h2 {
+    margin-top: -10px;
+    line-height: 31px;
+    letter-spacing: 0.8px
+}
 
 .blog-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-top: 49px;
 }
 
 .blog-list li {
-    max-width: 29%;
+    max-width: 380px;
+    margin-right: 20px;
+}
+
+
+.blog-list-pic1 {
+    background-color: #607076;
+}
+
+.blog-list-pic2 {
+    background-color: #CFBDAA;
+}
+
+.blog-list-pic3 {
+    background-color: #DFE4EA;
+}
+
+.blog-list-pic4 {
+    background-color: #3C77BF;
+}
+
+.blog-list-pic5 {
+    background-color: #F3F3F3;
+}
+
+.blog-list-pic6 {
+    background-color: #594F38;
+}
+
+
+.blog-list li a {
+    color:#1E0606
+}
+
+.blog-list li a:hover {
+    text-decoration: underline;
+}
+
+.blog-list li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.blog-list li:nth-child(n+4) {
+    margin-top: 17px;
+}
+
+.date {
+   margin-top: 22px;
+}
+
+.article {
+    font-size: 18px;
+    line-height: 24.51px;
+    margin-top: -3px;
+}
+
+.footer {
+    margin-top: 62px;
 }
